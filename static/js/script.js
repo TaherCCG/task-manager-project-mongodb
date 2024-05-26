@@ -11,6 +11,9 @@ $(document).ready(function () {
     $('.collapsible').collapsible();
     // Urgent tooltip
     $('.tooltipped').tooltip();
+    // Form Select
+    $("select").formSelect();
+    // Form Datepicker
     $(".datepicker").datepicker({
         format: "dd mmmm, yyyy",
         yearRange: 3,
